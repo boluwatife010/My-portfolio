@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Your content will go here -->
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Your Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<section id="about" class="container py-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2>About Me</h2>
+            <p>Brief intro about your skills, experience as a backend developer, and your goals.</p>
+        </div>
+    </div>
+</section>
+<section id="projects" class="container py-5">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="path-to-image.jpg" class="card-img-top" alt="Project Image">
+                <div class="card-body">
+                    <h5 class="card-title">Project Title</h5>
+                    <p class="card-text">Description of the project, your role, technologies used.</p>
+                    <a href="https://github.com/your-repo" class="btn btn-primary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat for other projects -->
+    </div>
+</section>
+
+<section id="contact" class="container py-5">
+    <h2 class="text-center">Contact</h2>
+    <form class="w-75 mx-auto">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+</section>
