@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Ojo Boluwatife Fiyinfoluwa - Backend Developer Portfolio</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
-    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <!-- Your content will go here -->
@@ -19,7 +20,7 @@
 </html>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Your Portfolio</a>
+    <a class="navbar-brand" href="#">Ojo Boluwatife Fiyinfoluwa | Backend Developer portfolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,11 +32,38 @@
         </ul>
     </div>
 </nav>
+    <!-- Header Section -->
+    <header class="text-center py-5 bg-light">
+        <h1>Ojo Boluwatife Fiyinfoluwa</h1>
+        <p>Backend Developer | Building Scalable Web Services</p>
+    </header>
+<!-- Social Media Icons -->
+<div class="text-center my-4">
+    <a href="https://www.linkedin.com/in/boluwatifeojo/" target="_blank" class="mx-3" aria-label="LinkedIn Profile">
+        <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+    <a href="https://github.com/boluwatife010" target="_blank" class="mx-3" aria-label="GitHub Profile">
+        <i class="fab fa-github fa-2x"></i>
+    </a>
+    <a href="https://x.com/BoluwatifeOjo10" target="_blank" class="mx-3" aria-label="Twitter Profile">
+        <i class="fab fa-twitter fa-2x"></i>
+    </a>
+    <a href="https://medium.com/@boluwatifehonour" target="_blank" class="mx-3" aria-label="Medium Profile">
+        <i class="fab fa-medium fa-2x"></i>
+    </a>
+</div>
 <section id="about" class="container py-5">
     <div class="row">
         <div class="col-md-12 text-center">
             <h2>About Me</h2>
-            <p>Brief intro about your skills, experience as a backend developer, and your goals.</p>
+            <p>As a backend developer, I specialize in building robust, scalable server-side applications that provide efficient and secure data handling, 
+                with a focus on developing RESTful APIs and integrating complex databases. I have hands-on experience with Node.js and TypeScript,
+                 leveraging these technologies to create reliable backend systems and ensure optimized server-side logic.
+                My skill set includes working with MongoDB, PostgreSQL, and MySQL, which allows me to design and maintain efficient data models tailored to application requirements.
+                 I’m also adept at implementing secure authentication and authorization mechanisms to protect user data and maintain privacy standards.
+                I aim to continue expanding my knowledge in backend engineering by delving into GraphQL, cloud services like AWS, and blockchain integration. 
+                My goal is to contribute to impactful projects that require efficient backend solutions, 
+                helping build applications that meet both business and user needs while staying at the forefront of backend technology advancements.</p>
         </div>
     </div>
 </section>
@@ -47,13 +75,58 @@
             <div class="card">
                 <img src="path-to-image.jpg" class="card-img-top" alt="Project Image">
                 <div class="card-body">
-                    <h5 class="card-title">Project Title</h5>
-                    <p class="card-text">Description of the project, your role, technologies used.</p>
-                    <a href="https://github.com/your-repo" class="btn btn-primary">View on GitHub</a>
+                    <h5 class="card-title">Hora - Student Productivity app</h5>
+                    <p class="card-text">Hora is a student productivity app designed to help students manage their activities and connect with other students. 
+                        Key features include:
+                    </p>
+                    <ul>
+                        <li>Task creation and management</li>
+                        <li>Finding an accountability partner</li>
+                        <li>Forming accountability groups of up to 4 people</li>
+                      </ul>
+                      <p>Technologies Used: Node.js, TypeScript, Express.js, MongoDB, GitHub, Render</p>
+                    <a href="https://github.com/boluwatife010/HoraProject" class="btn btn-primary">View on GitHub</a>
                 </div>
             </div>
         </div>
-        <!-- Repeat for other projects -->
+        <!-- Project 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="path-to-image.jpg" class="card-img-top" alt="Project Image">
+                <div class="card-body">
+                    <h5 class="card-title">Blog Application</h5>
+                    <p class="card-text">This blog application allows users to create, edit, and delete posts, 
+                        as well as interact with content through comments and likes.
+                    </p>
+                    <ul>
+                        <li>Implemented CRUD operations for posts and comments</li>
+                        <li>Integrated user authentication for secure access</li>
+                        <li>Optimized API endpoints for fast content delivery</li>
+                      </ul>
+                      <p>Technologies Used: Node.js, Express.js, MongoDB, and JWT for authentication</p>
+                    <a href="https://github.com/boluwatife010/CapstoneProject-Blogwebsite" class="btn btn-primary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+         <!-- Project 3 -->
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="path-to-image.jpg" class="card-img-top" alt="Project Image">
+                <div class="card-body">
+                    <h5 class="card-title">Expense Tracker</h5>
+                    <p class="card-text"> The expense tracker application helps users monitor and categorize their spending,
+                         set budget goals, and generate reports for financial insights.
+                    </p>
+                    <ul>
+                        <li>Designed and implemented API for tracking income and expenses</li>
+                        <li>Provided data visualization for expense categories and budgeting</li>
+                        <li>Ensured data security and integrity with robust authentication</li>
+                      </ul>
+                      <p>Technologies Used: Node.js, Express.js, MongoDB, Chart.js for data visualization</p>
+                    <a href="https://github.com/boluwatife010/ExpenseTracker" class="btn btn-primary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
